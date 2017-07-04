@@ -1,17 +1,14 @@
-# Hello, world!
-#
-# This is an example function named 'hello'
-# which prints 'Hello, world!'.
-#
-# You can learn more about package authoring with RStudio at:
-#
-#   http://r-pkgs.had.co.nz/
-#
-# Some useful keyboard shortcuts for package authoring:
-#
-#   Build and Reload Package:  'Ctrl + Shift + B'
-#   Check Package:             'Ctrl + Shift + E'
-#   Test Package:              'Ctrl + Shift + T'
+#' Takes an age and country and returns whether a person is legal to drink in that country
+#'
+#' @param age
+#' @param country
+#'
+#' @return String of legal, not legal, or varies by conditions
+#' @export
+#'
+#' @examples checklegal(16, "Canada")
+
+
 
 checklegal <- function(age, country) {
 
@@ -54,4 +51,4 @@ checklegal <- function(age, country) {
   }
 }
 
-checklegal(16, "Canada")
+
